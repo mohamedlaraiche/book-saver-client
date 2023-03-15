@@ -14,7 +14,7 @@ const Show = ({ Books, setBooks, isLoaded }) => {
       if (willDelete) {
         e.preventDefault();
         axios
-          .delete(`http://localhost:5000/api/books/${id}`)
+          .delete(`https://cyan-pig-sock.cyclic.app/api/books/${id}`)
           .then(setBooks(Books.filter((book) => book._id !== id)))
           .catch((err) => console.log(err.message));
         swal("Poof! Your Saved Book has been deleted!", {

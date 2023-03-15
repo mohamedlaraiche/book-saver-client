@@ -13,7 +13,7 @@ const Create = ({ Books, setBooks }) => {
       swal("Please, add the required fields ! ");
     } else {
       axios
-        .post(" http://localhost:5000/api/books", {
+        .post(" https://cyan-pig-sock.cyclic.app/api/books", {
           name: name,
           description: desc,
           price: price,

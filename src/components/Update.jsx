@@ -14,7 +14,7 @@ const Update = ({ Books, setBooks }) => {
       swal("Please, update the required fields or click 'back' ! ");
     } else {
       axios
-        .put(`http://localhost:5000/api/books/${id}`, {
+        .put(`https://cyan-pig-sock.cyclic.app/api/books/${id}`, {
           id: id,
           name: newName,
           description: newDesc,
