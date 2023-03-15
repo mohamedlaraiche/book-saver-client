@@ -1,0 +1,140 @@
+/* general */
+.addHolder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20vh;
+}
+.addHolder a {
+  text-decoration: none;
+  color: #fff;
+  background-color: purple;
+  padding: 10px;
+  font-weight: 550;
+}
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+}
+/* show */
+.cartsHolder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+.cartsHolder .cart {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f6f5f5;
+  margin: 20px;
+  padding: 20px;
+  width: 30%;
+  border-radius: 5px;
+  box-shadow: 15px 9px 13px 0px #919191;
+}
+.cart p {
+  text-align: justify;
+  margin: 10px;
+}
+/* create */
+.create {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin: 20px 0px;
+}
+.create h2 {
+  margin: 20px;
+  font-size: 20px;
+  text-decoration: underline;
+}
+.create form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+.create form input,
+.create form textarea {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  width: 70%;
+  border-radius: 5px;
+  resize: vertical;
+  outline: none;
+  border: 2px solid #919191;
+}
+.create form input:focus,
+.create form textarea:focus {
+  border: 2px solid rgba(93, 2, 93, 0.786);
+}
+.form-grp {
+  display: flex;
+  width: 80%;
+  margin: 10px;
+}
+.create form label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+  font-weight: 600;
+}
+.important {
+  color: #e20c0c;
+}
+.create form .addBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.create form .addBtn button {
+  background-color: rgba(93, 2, 93, 0.377);
+  padding: 10px 40px;
+  font-weight: 550;
+  border: none;
+  border-radius: 5px;
+}
+
+.create form .addBtn button:hover {
+  background-color: rgba(93, 2, 93, 0.354);
+  cursor: pointer;
+}
+.backHolder {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 80%;
+}
+a {
+  background-color: rgba(93, 2, 93, 0.354);
+  color: black;
+  font-weight: 550;
+  padding: 10px 40px;
+  border-radius: 5px;
+}
+.delBtn {
+  background-color: #e20c0c;
+  padding: 10px 40px;
+  margin: 10px 0px;
+  border: 2px solid #e20c0c;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 550;
+}
+.delBtn:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
